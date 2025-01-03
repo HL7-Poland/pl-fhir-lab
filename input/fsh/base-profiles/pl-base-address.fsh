@@ -1,5 +1,5 @@
 Profile: PLBaseAddress
-Parent: Address
+Parent: AddressEu
 Id: pl-base-address
 Title: "Adres"
 Description: "Bazowy adres"
