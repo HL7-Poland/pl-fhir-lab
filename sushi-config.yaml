@@ -10,7 +10,7 @@ name: Hl7PlLabolatoryIg
 # description: Example Implementation Guide for getting started with SUSHI
 status: draft # draft | active | retired | unknown
 version: 0.0.1
-fhirVersion: 5.0.0
+fhirVersion: 4.0.1
 copyrightYear: 2024+
 releaseLabel: ci-build
 license: CC0-1.0 
@@ -24,9 +24,9 @@ publisher:
 # use cases, the value can be an object with keys for id, uri, and version.
 #
 dependencies:
-  hl7.fhir.extensions.r5: 5.0.0
-  hl7.fhir.eu.extensions.r5: current
-  hl7.fhir.eu.base.r5: current
+  hl7.fhir.extensions.r4: 4.0.1
+  hl7.fhir.eu.extensions: 0.1.0
+  hl7.fhir.eu.base.r4: current
 #
 #
 # The pages property corresponds to IG.definition.page. SUSHI can

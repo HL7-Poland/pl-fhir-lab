@@ -34,3 +34,5 @@ Description: "Bazowy profil pacjenta"
 * name[unknown].suffix 0..0
 * name[unknown].period 0..0
 * address only PLBaseAddress
+* multipleBirth[x] only integer
+* managingOrganization only Reference(PLBaseOrganization)

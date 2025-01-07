@@ -8,5 +8,5 @@ Description: "Bazowy adres"
 * line.extension contains
     $iso21090-ADXP-unitID named unitID 0..*
 * line.extension[unitID].value[x] only string
-* country.extension contains 
-    AltIsoCountryCode named altCountryCode 0..2
+// * country.extension contains 
+//    AltIsoCountryCode named altCountryCode 0..2
