@@ -22,6 +22,7 @@ Alias: $ids-simc = http://hl7.org.pl/fhir/NamingSystem/teryt-simc
 
 // UV Terminology
 Alias: $sct = http://snomed.info/sct
+Alias: $loinc = http://loinc.com
 Alias: $icd-10 = urn:oid:2.16.840.1.113883.6.3
 Alias: $radiology-playbook = http://fhir.loinc.org/ValueSet/loinc-rsna-radiology-playbook
 

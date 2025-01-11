@@ -23,9 +23,8 @@ Description: "Bazowy profil pacjenta"
 * name ^slicing.description = "Rozróżnienie pacjenta o ustalonej tożsamości od pacjenta NN"
 * name ^slicing.ordered = false
 * name contains
-  known 0..1 and
-  unknown 0..1
-// TODO * name[known].use != "anonymous" or isEmpty Jak to zapisać poprawnie?
+  unknown 0..1 and
+  known 0..1
 * name[unknown].use = #anonymous
 * name[unknown].text = "NN"
 * name[unknown].family 0..0
@@ -33,6 +32,8 @@ Description: "Bazowy profil pacjenta"
 * name[unknown].prefix 0..0
 * name[unknown].suffix 0..0
 * name[unknown].period 0..0
+* name[known].given 1..2
+* name[known].family 1..1
 * address only PLBaseAddress
 * multipleBirth[x] only integer
 * managingOrganization only Reference(PLBaseOrganization)
