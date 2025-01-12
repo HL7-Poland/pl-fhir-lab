@@ -16,3 +16,10 @@ Description: "TBC"
   * coding[loinc].system = $loinc
   * coding[icd-9-pl].system = $icd-9-pl
 * subject only Reference(PLBasePatient)
+* encounter only Reference(PLBaseEncounter)
+* authoredOn 1..
+* requester 1..
+* requester only Reference(PLBaseServiceRequester)
+* location 1..1
+* location only CodeableReference(PLBaseMedicalFacility or PLBaseMedicalFacilityType)
+* insurance only Reference(PLBaseCoverage)
