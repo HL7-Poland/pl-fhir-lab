@@ -1,5 +1,5 @@
 Profile: PLBasePatient
-Parent: Patient
+Parent: PatientEuCore
 Id: pl-base-patient
 Title: "Pacjent"
 Description: "Bazowy profil pacjenta"
