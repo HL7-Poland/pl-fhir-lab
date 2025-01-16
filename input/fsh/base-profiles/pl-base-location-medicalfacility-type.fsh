@@ -1,7 +1,7 @@
-Profile: PLBaseMedicalFacilityType
+Profile: PLBaseLocationMedicalFacilityType
 Parent: Location
-Id: pl-base-medical-facility-type
-Title: "Specjalność komórki organizacyjnej"
+Id: pl-base-location-medicalfacility-type
+Title: "Location: MedicalFacility Type (PL)"
 Description: "Rodzaj placówki medycznej wyrażony jako specjalność komórki organizacyjnej (wg cz.VIII kodu resortowego)"
 * ^version = "0.0.1"
 * identifier ..0

@@ -1,6 +1,6 @@
 Extension: AltIsoCountryCode
 Id: address-altIsoCountryCode
-Title: "Kod kraju"
+Title: "Address: Alt ISO Country Code"
 Description: "Kod kraju wg ISO 3166 (trzyliterowy lub numeryczny)"
 Context: Address
 * ^version = "0.0.1"

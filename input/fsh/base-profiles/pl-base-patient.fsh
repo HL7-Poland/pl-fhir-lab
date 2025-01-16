@@ -1,7 +1,7 @@
 Profile: PLBasePatient
 Parent: PatientEuCore
 Id: pl-base-patient
-Title: "Pacjent"
+Title: "Patient (PL)"
 Description: "Bazowy profil pacjenta"
 * ^version = "0.0.1"
 * identifier 1..

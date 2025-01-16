@@ -1,7 +1,7 @@
 Profile: PLLabServiceRequest
 Parent: ServiceRequestLabEu
 Id: pl-lab-servicerequest
-Title: "ServiceRequest: Lab Order (PL)"
+Title: "ServiceRequest: Lab (PL)"
 Description: "TBC"
 * code
   * coding ^slicing.discriminator.type = #value
@@ -19,7 +19,7 @@ Description: "TBC"
 * encounter only Reference(PLBaseEncounter)
 * authoredOn 1..
 * requester 1..
-* requester only Reference(PLBaseServiceRequester)
+* requester only Reference(PLBasePractitionerRoleServiceRequester)
 * location 1..1
-* location only CodeableReference(PLBaseMedicalFacility or PLLabSampleTakingLocation)
+* location only CodeableReference(PLBaseLocationMedicalFacility or PLLabLocationSampleCollection)
 * insurance only Reference(PLBaseCoverage)
