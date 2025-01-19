@@ -4,9 +4,7 @@ Id: pl-lab-composition
 Title: "Composition: Laboratory Document Header"
 Description: "Nagłówek dokumentu sprawozdania z badania laboratoryjnego"
 * ^version = "0.0.1"
-// TODO: Czy określenie języka w zasobie Composition wyznacza we właściwy sposób język dokumentu
-// TODO: Właściwe nazewnictwo zbiorów wartości
-* language from DocumentLanguage
+* language from PLDocumentLanguage
 * identifier 1..1 MS
 * identifier.system 1..1 MS
 * identifier.value 1..1 MS
@@ -28,7 +26,7 @@ Description: "Nagłówek dokumentu sprawozdania z badania laboratoryjnego"
 * encounter only Reference(PLBaseEncounter)
 * date 1..1 MS
 * author 1..1 MS
-* authir only Reference(PLBasePractitioner)
+* author only Reference(PLBasePractitionerRole)
 * title 1..1 MS
 * attester 1..* MS
 * attester ^slicing.discriminator.type = #value
@@ -48,7 +46,7 @@ Description: "Nagłówek dokumentu sprawozdania z badania laboratoryjnego"
 //* attester[authenticator]
 * custodian 1..1 MS
 * custodian only Reference(PLBaseOrganization)
-// TODO: ConfidentialityCode eztension
+// TODO: ConfidentialityCode extension
 * section 1..* MS
 * section ^slicing.discriminator.type = #value
 * section ^slicing.discriminator.path = "code.system"
@@ -61,7 +59,8 @@ Description: "Nagłówek dokumentu sprawozdania z badania laboratoryjnego"
 * section[labReportSection].code 1..1 MS
 * section[labReportSection].code = $loinc#30954-2 "Relevant diagnostic tests/laboratory data"
 * section[labReportSection].text 1..1 MS
-* section[labReportSection].entry
+* section[labReportSection].entry 0..* MS
+* section[labReportSection].entry only (Reference(PLLabObservationResults)
 * section[attachmentsSection].code 1..1 MS
 * section[attachmentsSection].code $loinc#77599-9 "Additional documentation"
 * section[attachmentsSection].title 1..1 MS
