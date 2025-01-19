@@ -1,0 +1,6 @@
+ValueSet: OrganizationCellType
+Id:	organization-cell-type
+Title: "Organozation Cell Type"
+Description: "Specjalności komórek organizacyjnych (cz. VIII kodu resortowego)"
+// Uzupełnienie elementów zbioru wartości
+//* $org-cell-type#
