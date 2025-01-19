@@ -1,7 +1,7 @@
 Profile: PLBasePatient
 Parent: PatientEuCore
 Id: pl-base-patient
-Title: "Pacjent"
+Title: "Patient (PL)"
 Description: "Bazowy profil pacjenta"
 * ^version = "0.0.1"
 * identifier 1..
@@ -32,8 +32,13 @@ Description: "Bazowy profil pacjenta"
 * name[unknown].prefix 0..0
 * name[unknown].suffix 0..0
 * name[unknown].period 0..0
+* name[unknown].name.extension.url 1..1
+* name[unknown].name.extension.url = "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
+* name[unknown].name.extension.valueCode 1..1
+* name[unknown].name.extension.valueCode = #unknown
 * name[known].given 1..2
 * name[known].family 1..1
 * address only PLBaseAddress
 * multipleBirth[x] only integer
 * managingOrganization only Reference(PLBaseOrganization)
+// TODO Dodać sposób na zapisanie PESELa matki - czyli jak zapisac guardian'a w FHIRze?

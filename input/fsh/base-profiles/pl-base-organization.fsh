@@ -1,8 +1,8 @@
 Profile: PLBaseOrganization
-Parent: OrganizationEu
+Parent: Organization
 Id: pl-base-organization
-Title: "Organizacja"
-Description: "Bazowy profil organizacji"
+Title: "Organization (PL)"
+Description: "Bazowy profil organizacji (podmiotu)"
 * ^version = "0.0.1"
 * identifier 1.. MS
 * address only PLBaseAddress

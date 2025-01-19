@@ -1,8 +1,8 @@
-Profile: PLBaseMedicalFacility
+Profile: PLBaseLocationMedicalFacility
 Parent: Location
-Id: pl-base-medical-facility
-Title: "Placówka medyczna/Miejsce udzielania świadczeń"
-Description: "Placówka medyczna/Miejsce udzielania świadczeń należace do określonego podmiotu medycznego"
+Id: pl-base-location-medicalfacility
+Title: "Location: MedicalFacility (PL)"
+Description: "Placówka medyczna/Miejsce udzielania świadczeń należące do określonego podmiotu medycznego"
 * ^version = "0.0.1"
 * identifier 1..*
 * identifier ^slicing.discriminator.type = #value

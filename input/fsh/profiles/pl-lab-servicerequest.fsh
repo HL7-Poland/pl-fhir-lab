@@ -1,13 +1,13 @@
 Profile: PLLabServiceRequest
 Parent: ServiceRequestLabEu
 Id: pl-lab-servicerequest
-Title: "Zlecenie badania laboratoryjnego"
+Title: "ServiceRequest: Lab (PL)"
 Description: "TBC"
 * code
   * coding ^slicing.discriminator.type = #value
   * coding ^slicing.discriminator.path = "system"
   * coding ^slicing.rules = #open
-  * coding ^slicing.description = ""
+  * coding ^slicing.description = "Kodowanie badań lab za pomocą różnych słowników"
   * coding ^slicing.ordered = false
   * coding contains
     loinc 0..1
@@ -19,7 +19,7 @@ Description: "TBC"
 * encounter only Reference(PLBaseEncounter)
 * authoredOn 1..
 * requester 1..
-* requester only Reference(PLBaseServiceRequester)
+* requester only Reference(PLBasePractitionerRoleServiceRequester)
 * location 1..1
-* location only CodeableReference(PLBaseMedicalFacility or PLBaseMedicalFacilityType)
+* location only CodeableReference(PLBaseLocationMedicalFacility or PLLabLocationSampleCollection)
 * insurance only Reference(PLBaseCoverage)

@@ -1,7 +1,7 @@
 Extension: Teryt
 Id: address-teryt
-Title: "TERYT"
-Description: "TBC"
+Title: "Address: TERYT Code (PL)"
+Description: "Kod TERYT"
 Context: Address
 * ^version = "0.0.1"
 * extension contains
@@ -10,8 +10,8 @@ Context: Address
 
 Extension: TERC
 Id: teryt-terc
-Title: "Identyfikator TERC"
-Description: "TBC"
+Title: "Address: TERC Code (PL)"
+Description: "Kod TERC"
 Context: Teryt
 * ^version = "0.0.1"
 * value[x] only Coding
@@ -19,8 +19,8 @@ Context: Teryt
 
 Extension: SIMC
 Id: teryt-simc
-Title: "Identyfikator SIMC"
-Description: "TBC"
+Title: "Address: SIMC Code (PL)"
+Description: "Kod SIMC"
 Context: Teryt
 * ^version = "0.0.1"
 * value[x] only Coding

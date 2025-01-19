@@ -1,7 +1,7 @@
 Profile: PLBasePractitioner
 Parent: Practitioner
 Id: pl-base-practitioner
-Title: "Pracownik medyczny"
+Title: "Practitioner (PL)"
 Description: "Bazowy profil pracownika medycznego"
 * ^version = "0.0.1"
 * identifier 1..*
