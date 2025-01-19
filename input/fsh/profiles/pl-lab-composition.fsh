@@ -26,6 +26,26 @@ Description: "Nagłówek dokumentu sprawozdania z badania laboratoryjnego"
 * subject only Reference(PLLabPatient)
 * encounter 1..1 MS
 * encounter only Reference(PLBaseEncounter)
+* date 1..1 MS
+* author 1..1 MS
+* authir only Reference(PLBasePractitioner)
+* title 1..1 MS
+* attester 1..* MS
+* attester ^slicing.discriminator.type = #value
+* attester ^slicing.discriminator.path = "mode"
+* attester ^slicing.rules = #open
+* attester ^slicing.description = "Wystawca dokumentu"
+* attester ^slicing.ordered = false
+* attester contains
+    legalAuthenticator 1..1 MS
+    authenticator 0..* MS
+* attester[legalAuthenticator].mode 1..1 MS    
+* attester[legalAuthenticator].mode = #legal
+* attester[legalAuthenticator].time 1..1 MS
+* attester[legalAuthenticator].party 1..1 MS
+* attester[legalAuthenticator].party only Reference(PLBasePractitioner)
+// TODO: Attester as additional authenticator
+//* attester[authenticator]
 * custodian 1..1 MS
 * custodian only Reference(PLBaseOrganization)
 // TODO: ConfidentialityCode eztension
