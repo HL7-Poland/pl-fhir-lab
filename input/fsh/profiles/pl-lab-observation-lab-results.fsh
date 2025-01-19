@@ -17,4 +17,7 @@ Description: "Wynik badania laboratoryjnego"
   * coding[icd-9-pl].system = $icd-9-pl
 * subject only Reference(PLBasePatient)
 // TODO: dodać profil dla laboratorium? - * performer only Reference(PLLab???)
-// Wyjaśnić co chodzi ze slice'am dla value[x] vs. component (*) vs. hasMember
+/* Wyjaśnić co chodzi ze slice'am dla value[x] vs. component (*) vs. hasMember:
+- slice dla najprostszych wyników tzn. dla z jednym value?
+- component dla wielu parametrów jedengo badania np. morfologia krwi?
+- hasMember tylko dla grupowania wielu "samodzielnych" wyników? */
