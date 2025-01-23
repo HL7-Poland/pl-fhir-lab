@@ -16,8 +16,14 @@ Description: "Wynik badania laboratoryjnego"
   // TODO: dodać podczas harmonizacji: * coding[loinc].system = $loinc
   * coding[icd-9-pl].system = $icd-9-pl
 * subject only Reference(PLBasePatient)
+* effective[x] 1..1 //TO DISCUSS: Czy tu jest potrzebny slicing?
+* effectiveDateTime 0..1
+* effectivePeriod 0..1
+* effectiveTiming 0..0
+* effectiveInstant 0..0
 // TODO: dodać profil dla laboratorium? - * performer only Reference(PLLab???)
-/* Wyjaśnić co chodzi ze slice'am dla value[x] vs. component (*) vs. hasMember:
+/* TO DISCUSS: slicing dla value[x] vs. component (*) vs. hasMember:
 - slice dla najprostszych wyników tzn. dla z jednym value?
 - component dla wielu parametrów jedengo badania np. morfologia krwi?
 - hasMember tylko dla grupowania wielu "samodzielnych" wyników? */
+// TO DISCUSS: author >> performer?
