@@ -1,7 +1,7 @@
 Profile: PLBaseAddress
 Parent: AddressEu
 Id: pl-base-address
-Title: "Adres"
+Title: "Address (PL)"
 Description: "Bazowy adres"
 * extension contains
     Teryt named teryt 0..1

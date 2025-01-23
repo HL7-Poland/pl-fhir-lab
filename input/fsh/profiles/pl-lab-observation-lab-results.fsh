@@ -22,7 +22,7 @@ Description: "Wynik badania laboratoryjnego"
 * effectiveTiming 0..0
 * effectiveInstant 0..0
 // TODO: dodać profil dla laboratorium? - * performer only Reference(PLLab???)
-/* TO DISCUSS: slicing dla value[x] vs. component (*) vs. hasMember:
+/* TO DISCUSS: value[x] (1) vs. component (*) vs. hasMember:
 - slice dla najprostszych wyników tzn. dla z jednym value?
 - component dla wielu parametrów jedengo badania np. morfologia krwi?
 - hasMember tylko dla grupowania wielu "samodzielnych" wyników? */
