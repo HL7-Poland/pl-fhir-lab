@@ -16,11 +16,7 @@ Description: "Wynik badania laboratoryjnego"
   // TODO: dodać podczas harmonizacji: * coding[loinc].system = $loinc
   * coding[icd-9-pl].system = $icd-9-pl
 * subject only Reference(PLBasePatient)
-* effective[x] 1..1 //TO DISCUSS: Czy tu jest potrzebny slicing?
-* effectiveDateTime 0..1
-* effectivePeriod 0..1
-* effectiveTiming 0..0
-* effectiveInstant 0..0
+// TO DISCUSS: Dlaczego w EU Lab Report różne typy effective[x] są zapisane inaczej niż inne typy value[x]?
 // TODO: dodać profil dla laboratorium? - * performer only Reference(PLLab???)
 /* TO DISCUSS: value[x] (1) vs. component (*) vs. hasMember:
 - slice dla najprostszych wyników tzn. dla z jednym value?
