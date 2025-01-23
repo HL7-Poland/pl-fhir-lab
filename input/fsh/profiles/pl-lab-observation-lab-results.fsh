@@ -23,3 +23,16 @@ Description: "Wynik badania laboratoryjnego"
 - component dla wielu parametrów jedengo badania np. morfologia krwi?
 - hasMember tylko dla grupowania wielu "samodzielnych" wyników? */
 // TO DISCUSS: author >> performer?
+* hasMember only Reference(PLLabObservationResults)
+* component.code
+  * coding ^slicing.discriminator.type = #value
+  * coding ^slicing.discriminator.path = "system"
+  * coding ^slicing.rules = #open
+  * coding ^slicing.description = "Kodowanie badań lab za pomocą różnych słowników"
+  * coding ^slicing.ordered = false
+  * coding contains
+    // TODO: dodać podczas harmonizacji: loinc 0..1
+    icd-9-pl 0..1
+    other 0..*
+  // TODO: dodać podczas harmonizacji: * coding[loinc].system = $loinc
+  * coding[icd-9-pl].system = $icd-9-pl
