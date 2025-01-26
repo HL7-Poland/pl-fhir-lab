@@ -1,6 +1,6 @@
 Profile: PLLabObservationResults
 Parent: ObservationResultsLaboratoryEu
-Id: pl-lab-observation-lab-results
+Id: pl-lab-observation-labresults
 Title: "Observation: Lab Results (PL)"
 Description: "Wynik badania laboratoryjnego"
 * code
