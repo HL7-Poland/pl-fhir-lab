@@ -6,9 +6,12 @@ Alias: $npwz-nurse = urn:oid:2.16.840.1.113883.3.4424.1.6.3
 Alias: $npwz-lab = urn:oid:2.16.840.1.113883.3.4424.1.6.4
 
 // PL Organizational
-Alias: $ids-pwdl = urn:oid:2.16.840.1.113883.3.4424.2.3.1
-Alias: $ids-orgUnit = urn:oid:2.16.840.1.113883.3.4424.2.3.2
-Alias: $ids-orgCell = urn:oid:2.16.840.1.113883.3.4424.2.3.3
+Alias: $ids-regon9 = urn:oid:2.16.840.1.113883.3.4424.2.2.1
+Alias: $ids-regon14 = urn:oid:2.16.840.1.113883.3.4424.2.2.2
+Alias: $ids-medicalEntity = urn:oid:2.16.840.1.113883.3.4424.2.3.1
+Alias: $ids-medicalEntityUnit = urn:oid:2.16.840.1.113883.3.4424.2.3.2
+Alias: $ids-medicalEntityCell = urn:oid:2.16.840.1.113883.3.4424.2.3.3
+Alias: $ids-pharmacy = urn:oid:2.16.840.1.113883.3.4424.2.6
 
 // UV Teritorial
 Alias: $iso3166-1-2 = http://hl7.org/fhir/ValueSet/iso3166-1-2
