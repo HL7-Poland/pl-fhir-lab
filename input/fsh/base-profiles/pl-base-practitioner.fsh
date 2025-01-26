@@ -15,9 +15,10 @@ Description: "Bazowy profil pracownika medycznego"
   doc 0..1 and
   nurse 0..1 and
   lab 0..1 and
+  //TODO: other - zamienić na zasady dotyczące domyślnego slice'a (default)
   other 0..*
 * identifier[pharm].system = $npwz-pharm
 * identifier[doc].system = $npwz-doc
 * identifier[nurse].system = $npwz-nurse
 * identifier[lab].system = $npwz-lab
-* name 1..
+* name 1..*

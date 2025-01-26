@@ -26,7 +26,7 @@ Description: "Nagłówek dokumentu sprawozdania z badania laboratoryjnego"
 * encounter only Reference(PLBaseEncounter)
 * date 1..1 MS
 * author 1..1 MS
-* author only Reference(PLBasePractitionerRole)
+* author only Reference(PLBasePractitionerRoleDocumentAuthor)
 * title 1..1 MS
 * attester 1..* MS
 * attester ^slicing.discriminator.type = #value
@@ -64,7 +64,7 @@ Description: "Nagłówek dokumentu sprawozdania z badania laboratoryjnego"
 * section[attachmentsSection].code 1..1 MS
 * section[attachmentsSection].code $loinc#77599-9 "Additional documentation"
 * section[attachmentsSection].title 1..1 MS
-* section[attachmentsSection].title = "Załącziki"
+* section[attachmentsSection].title = "Załączniki"
 // TODO: Attachments entry
 //* section[attachmentsSection].entry
 
