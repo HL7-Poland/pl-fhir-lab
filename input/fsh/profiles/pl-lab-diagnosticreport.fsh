@@ -1,5 +1,5 @@
 Profile: PLLabDiagnosticReport
-Parent: DiagnosticReportLabEu
+Parent: DiagnosticReport
 Id: pl-lab-diagnosticreport
 Title: "DiagnosticReport: Lab (PL)"
 Description: "Wynik badania laboratoryjnego"

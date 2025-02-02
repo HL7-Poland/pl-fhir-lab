@@ -1,5 +1,5 @@
 Profile: PLLabObservationResults
-Parent: ObservationResultsLaboratoryEu
+Parent: Observation
 Id: pl-lab-observation-labresults
 Title: "Observation: Lab Results (PL)"
 Description: "Wynik badania laboratoryjnego"
@@ -12,7 +12,6 @@ Description: "Wynik badania laboratoryjnego"
   * coding contains
     // TODO: dodać podczas harmonizacji: loinc 0..1
     icd-9-pl 0..1
-    other 0..* // TODO: zwweryfikować, czy to jest dobrze? Czy trzeba użyć default slice?
   // TODO: dodać podczas harmonizacji: * coding[loinc].system = $loinc
   * coding[icd-9-pl].system = $icd-9-pl
 * subject only Reference(PLBasePatient)
@@ -22,7 +21,7 @@ Description: "Wynik badania laboratoryjnego"
 - slice dla najprostszych wyników tzn. dla z jednym value?
 - component dla wielu parametrów jedengo badania np. morfologia krwi?
 - hasMember tylko dla grupowania wielu "samodzielnych" wyników? */
-* performer only Reference(PLBasePractitionerRole)
+* performer only Reference(PLBasePractitioner)
 * hasMember only Reference(PLLabObservationResults)
 * component.code
   * coding ^slicing.discriminator.type = #value
@@ -33,6 +32,5 @@ Description: "Wynik badania laboratoryjnego"
   * coding contains
     // TODO: dodać podczas harmonizacji: loinc 0..1
     icd-9-pl 0..1
-    other 0..*
   // TODO: dodać podczas harmonizacji: * coding[loinc].system = $loinc
   * coding[icd-9-pl].system = $icd-9-pl

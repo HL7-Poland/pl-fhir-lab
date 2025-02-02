@@ -1,5 +1,5 @@
 Profile: PLLabServiceRequest
-Parent: ServiceRequestLabEu
+Parent: ServiceRequest
 Id: pl-lab-servicerequest
 Title: "ServiceRequest: Lab (PL)"
 Description: "TBC"
@@ -12,7 +12,6 @@ Description: "TBC"
   * coding contains
     // TODO: dodać podczas harmonizacji: loinc 0..1
     icd-9-pl 0..1
-    other 0..*
   // TODO: dodać podczas harmonizacji: * coding[loinc].system = $loinc
   * coding[icd-9-pl].system = $icd-9-pl
 * subject only Reference(PLBasePatient)
@@ -20,6 +19,6 @@ Description: "TBC"
 * authoredOn 1..
 * requester 1..
 * requester only Reference(PLBasePractitionerRoleServiceRequester)
-* location 1..1
-* location only CodeableReference(PLBaseLocationMedicalFacility or PLLabLocationSampleCollection)
+//* location 1..1
+//* location only CodeableReference(PLBaseLocationMedicalFacility or PLLabLocationSampleCollection)
 * insurance only Reference(PLBaseCoverage)
