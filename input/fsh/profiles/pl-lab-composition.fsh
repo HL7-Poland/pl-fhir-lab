@@ -3,7 +3,7 @@ Parent: PLBaseComposition
 Id: pl-lab-composition
 Title: "Composition: Laboratory Document Header"
 Description: "Nagłówek dokumentu sprawozdania z badania laboratoryjnego"
-* ^version = "0.0.1"
+* ^version = "0.1.0"
 * section 1..* MS
 * section ^slicing.discriminator.type = #value
 * section ^slicing.discriminator.path = "code.system"
@@ -22,6 +22,8 @@ Description: "Nagłówek dokumentu sprawozdania z badania laboratoryjnego"
 * section[attachmentsSection].code = $loinc#77599-9 "Additional documentation"
 * section[attachmentsSection].title 1..1 MS
 * section[attachmentsSection].title = "Załączniki"
+
+
 // TODO: Attachments entry
 //* section[attachmentsSection].entry
 
