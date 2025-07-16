@@ -6,8 +6,8 @@
 id: hl7.fhir.pl.laboratory
 canonical: http://hl7.org.pl/fhir/ig/pl-lab
 name: Hl7PlLabolatoryIg
-# title: Example Title
-# description: Example Implementation Guide for getting started with SUSHI
+title: Polska specyfikacja standardu HL7 FHIR dla domeny badań laboratoryjnych (HL7 FHIR PLLaboratory)
+description: Polska specyfikacja standardu HL7 FHIR dla domeny badań laboratoryjnych 
 status: draft # draft | active | retired | unknown
 version: 0.1.1
 fhirVersion: 4.0.1
