@@ -42,9 +42,11 @@ dependencies:
 # with supported extensions (e.g., .md/.xml) will be treated as
 # sub-pages.
 #
-# pages:
-#   index.md:
-#     title: Example Home
+pages:
+  index.md:
+    title: Strona główna
+  model.md:
+    title: Logiczny model danych
 #   implementation.xml:
 #   examples.xml:
 #     title: Examples Overview
@@ -74,14 +76,15 @@ dependencies:
 # │ property below.                                                                                │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 menu:
-  Strona główna: index.html
-  Spis treści: toc.html
-  Wprowadzenie: background.html
-  Definicje struktur: artifacts.html
+  Strona główna: index.html  
+  Spis treści: toc.html  
+  Wprowadzenie: background.html 
+  Model: model.html
+  Definicje: artifacts.html  
 
 # ╭───────────────────────────Less Common Implementation Guide Properties──────────────────────────╮
 # │  Uncomment the properties below to configure additional properties on the ImplementationGuide  │
-# │  resource. These properties are less commonly needed than those above.                         │
+# │  resource. These roperties are less commonly needed than those above.                         │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 #
 # Those who need more control or want to add additional details to the contact values can use
