@@ -1,6 +1,6 @@
 Profile: PLLabListPanel
 Parent: List
-Id: pl-lab-composition
+Id: pl-lab-list-panel
 Title: "List: Panel (PL)"
 Description: "Panel definicji badań laboratoryjnych"
 * identifier 0..0

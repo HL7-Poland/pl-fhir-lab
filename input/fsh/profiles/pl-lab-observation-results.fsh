@@ -1,7 +1,7 @@
 Profile: PLLabObservationResults
 Parent: Observation
 Id: pl-lab-observation-results
-Title: "Observation: Laborastory Results (PL)"
+Title: "Observation: Laboratory Results (PL)"
 Description: "Wynik badania laboratoryjnego"
 * ^version = "0.1.0"
 * code from PLServiceEventType
@@ -11,8 +11,8 @@ Description: "Wynik badania laboratoryjnego"
 * effective[x] 1..1 MS
 * performer only Reference(PLBasePractitionerRole)
 * value[x] 0..1 MS
-* hasMember only Reference(PLLabObservationLaboratoryResults)
-* component.code from  PLLabObservationResults
+* hasMember only Reference(PLLabObservationResults)
+* component.code from  LoincLaboratoryServiceCodeVS
 
 
 //TODO:

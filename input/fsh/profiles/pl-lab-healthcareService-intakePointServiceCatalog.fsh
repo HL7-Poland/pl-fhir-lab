@@ -15,7 +15,7 @@ Description: "Katalog usług punktu pobrań"
 * identifier.assigner 0..0 
 * active 0..0
 * providedBy 1..1 MS
-* providedBy only (PLLabOrganizationDiagnosticEntity)
+* providedBy only Reference(PLLabOrganizationDiagnosticEntity)
 * offeredIn 0..0
 * category 0..0
 * type 1..1 MS

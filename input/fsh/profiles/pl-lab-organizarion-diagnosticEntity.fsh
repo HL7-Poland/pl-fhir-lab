@@ -36,4 +36,4 @@ Description: "Podmiot diagnostyczny"
 * contact.telecom[email].period 0..0
 * partOf 0..0
 * endpoint 0..0
-* qualication 0..0
+* qualification 0..0

@@ -8,4 +8,3 @@ Description: "Wynik badania laboratoryjnego"
 * basedOn only Reference(PLLabServiceRequest)
 * subject only Reference(PLBasePatient)
 * result only Reference(PLLabObservationResults)
-* imagingStudy 0..0

@@ -1,6 +1,6 @@
 Logical: KatalogUslugPunktuPobran
 Parent: Base
-Id: pl-lab-katalogUslug
+Id: pl-lab-katalogUslugPunktuPobran
 Title: "Katalog usług punktu pobrań"
 Description: "Karalog usług punktu pobrań"
 * identyfikator 1..1 Identifier "Identyfikator katalogu usług" "Identyfikator katalogu usług punktu pobrań"
