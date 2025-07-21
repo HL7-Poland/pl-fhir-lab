@@ -1,6 +1,6 @@
 Profile: PLLabServiceRequest
 Parent: ServiceRequest
-Id: pl-lab-servicerequest
+Id: pl-lab-serviceRequest
 Title: "ServiceRequest: Laboratory Request (PL)"
 Description: "Zlecenie badania laboratoryjnego"
 * ^version = "0.1.0"

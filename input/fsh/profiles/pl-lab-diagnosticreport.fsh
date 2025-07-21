@@ -1,6 +1,6 @@
 Profile: PLLabDiagnosticReport
 Parent: DiagnosticReport
-Id: pl-lab-diagnosticreport
+Id: pl-lab-diagnosticReport
 Title: "DiagnosticReport: Labortory Report (PL)"
 Description: "Wynik badania laboratoryjnego"
 * ^version = "0.1.0"

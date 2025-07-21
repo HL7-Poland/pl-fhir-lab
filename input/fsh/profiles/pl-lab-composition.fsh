@@ -23,7 +23,6 @@ Description: "Nagłówek dokumentu sprawozdania z badania laboratoryjnego"
 * section[attachmentsSection].title 1..1 MS
 * section[attachmentsSection].title = "Załączniki"
 
-
 // TODO: Attachments entry
 //* section[attachmentsSection].entry
 
