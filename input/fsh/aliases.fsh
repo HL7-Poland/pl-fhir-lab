@@ -23,12 +23,21 @@ Alias: $iso21090-ADXP-unitID = http://hl7.org/fhir/StructureDefinition/iso21090-
 Alias: $ids-terc = http://hl7.org.pl/fhir/NamingSystem/teryt-terc
 Alias: $ids-simc = http://hl7.org.pl/fhir/NamingSystem/teryt-simc
 
-// UV Terminology
+// UV Terminology code systems
 Alias: $sct = http://snomed.info/sct
 Alias: $loinc = http://loinc.com
+Alias: $loinc-part = http://loinc.org/part
 Alias: $icd-10 = urn:oid:2.16.840.1.113883.6.3
+Alias: $icd-9-pl = urn:oid:2.16.840.1.113883.3.4424.11.2.6
 Alias: $radiology-playbook = http://fhir.loinc.org/ValueSet/loinc-rsna-radiology-playbook
 Alias: $bcp-47 = urn:ietf:bcp:47
+Alias: $ucum = http://unitsofmeasure.org
+Alias: $snomed = https://www.snomed.org
+
+
+// UV Terminology value sets
+Alias: $ucum-codes-vs = http://hl7.org/fhir/ValueSet/ucum-units
+Alias: $all-languages-vS = http://hl7.org/fhir/ValueSet/all-languages
 
 // PL Terminology
 Alias: $icd-9-pl = urn:oid:2.16.840.1.113883.3.4424.11.2.6
@@ -37,3 +46,4 @@ Alias: $mri-fieldStrength = http://hl7.org.pl/fhir/CodeSystem/pl-imaging-mriScan
 Alias: $p1-document-class = urn:oid:2.16.840.1.113883.3.4424.11.1.32
 Alias: $practitioner-role = urn:oid:2.16.840.1.113883.3.4424.11.3.18
 Alias: $practitioner-specialty = urn:oid:2.16.840.1.113883.3.4424.11.3.3
+Alias: $service-catalog-type = http://hl7.org.pl/fhir/ig/pl-lab/CodeSystem/pl-lab-serviceCatalogType-CS
