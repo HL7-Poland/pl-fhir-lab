@@ -1,10 +1,9 @@
-ValueSet: LaboratoryMaterialTypeVS
-Id: pl-lab-materialType-VS
-Title: "Kody materiałów laboratoryjnych"
-Description: "Kody pobranych materiałów laboratoryjnych wyrażone za pomocą pozycji słownika LOINC Part typu System"
+ValueSet: LoincSystemVS
+Id: pl-term-loincSystem-VS
+Title: "Wartości LOINC System"
+Description: "Wartości pozycji słownika LOINC Part typu System"
 // Poprawić w pliku źródłowym:
 // - wszystkie nazwy powinny być małą literą
-// - usunąć pozycje, które nie są nazwą materiału (?)
 * $loinc-part#LP100478-9 "Komórki.XXX"
 * $loinc-part#LP100809-5 "środowisko"
 * $loinc-part#LP100815-2 "Surowica/osocze/krew żylna"

@@ -1,9 +1,9 @@
-ValueSet: LaboratoryMethodTypeVS
-Id: pl-lab-methodType-VS
-Title: "Kody metod oznaczeń laboratoryjnych"
-Description: "Kody metod oznaczeń laboratoryjnych wyrażone za pomocą pozycji słownika LOINC Part typu Method"
+ValueSet: LoincMethodVS
+Id: pl-term-loincMethod-VS
+Title: "Wartości LOINC Method"
+Description: "Wartości pozycji słownika LOINC Part typu Method"
+// LOINC Part codes with PartTypeName = METHOD
 // - wszystkie nazwy powinny być małą literą
-// - usunąć pozycje, które nie są nazwą metody (?)
 * $loinc-part#LP100028-2 "dyfrakcja promieni rentgenowskich"
 * $loinc-part#LP100479-7 "zautomatyzowana cytometria obrazowa"
 * $loinc-part#LP100835-0 "miernik przezskórny"

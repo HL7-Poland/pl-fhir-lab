@@ -1,9 +1,8 @@
-ValueSet: LaboratoryServiceCategoryVS
-Id: pl-lab-serviceCategory-VS
-Title: "Kody kategorii usług laboratoryjnych"
-Description: "Kody kategorii usług laboratoryjnych wyrażone za pomocą pozycji słownika LOINC Part typu Class"
-// Poprawić w pliku źródłowym:
-// - usunąć pozycje, które nie są nazwą kategorii usług laboratoryjnych (?)
+ValueSet: LoincClassVS
+Id: pl-term-loincClass-VS
+Title: "Wartości LOINC Class"
+Description: "Wartości pozycji słownika LOINC Part typu Class"
+// LOINC Part code with PartType = CLASS
 * $loinc-part#LP111373-9 "panele cytogenetyczne w HL7"
 * $loinc-part#LP111381-2 "badania cytogenetyczne w HL7"
 * $loinc-part#LP116676-0 "panele patologii"
