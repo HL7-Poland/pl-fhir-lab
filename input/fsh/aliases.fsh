@@ -47,3 +47,5 @@ Alias: $p1-document-class = urn:oid:2.16.840.1.113883.3.4424.11.1.32
 Alias: $practitioner-role = urn:oid:2.16.840.1.113883.3.4424.11.3.18
 Alias: $practitioner-specialty = urn:oid:2.16.840.1.113883.3.4424.11.3.3
 Alias: $service-catalog-type = http://hl7.org.pl/fhir/ig/pl-lab/CodeSystem/pl-lab-serviceCatalogType-CS
+Alias: $nfz_reimbursement_code_type = http://hl7.org.pl/fhir/ig/pl-term/CodeSystem/pl-term-nfzReimbursementCodeType-CS
+// Alias: $nfz_guaranteed_service_code = 
