@@ -6,7 +6,9 @@ Description: "Definicja badania laboratoryjnego"
 * ^version = "0.1.0"
 * extension contains
     ObservationDefinitionReasonReference named reason 0..* MS and
-    ObservationDefinitionUnitConversion named unitConversion 0..* MS
+    ObservationDefinitionUnitConversion named unitConversion 0..* MS and
+    ObservationDefinitionNfzGuaranteedServiceCode named nfzGuaranteedServiceCode 0..* MS and
+    ObservationDefinitionNfzContractedServiceCode named nfzContractedServiceCode 0..* MS
 * identifier 1..1 MS 
 * identifier.use 0..0
 * identifier.type 0..0

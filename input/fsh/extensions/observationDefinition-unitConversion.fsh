@@ -1,6 +1,6 @@
 Extension: ObservationDefinitionUnitConversion
 Id: observationDefinition-unitConversion
-Title: "ObsrervationDefinition: Unit conversion (PL)"
+Title: "ObservationDefinition: Unit conversion (PL)"
 Description: "Przelicznik jednostki wyniku definicji badania"
 Context: ObservationDefinition
 * extension ^slicing.discriminator.type = #value
