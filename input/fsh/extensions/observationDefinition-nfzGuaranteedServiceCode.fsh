@@ -15,7 +15,7 @@ Context: ObservationDefinition
     explicite 1..1 MS
 * extension[type].value[x] only Coding
 * extension[type].valueCoding 1..1
-* extension[type].valueCoding = $nfz_reimbursement_code_type#KSG "Kod świadczenia gwarantowanego NFZ"
+* extension[type].valueCoding = $nfz-reimbursement#KSG "Kod świadczenia gwarantowanego NFZ"
 * extension[code].value[x] only Coding
 * extension[code].valueCoding 1..1
 * extension[code].valueCoding from NfzGuaranteedServiceCodeVS
