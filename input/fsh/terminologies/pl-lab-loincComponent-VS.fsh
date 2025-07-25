@@ -1,5 +1,5 @@
 ValueSet: LoincComponentVS
-Id: pl-term-loincComponent-VS
+Id: pl-lab-loincComponent-VS
 Title: "Wartości LOINC Component"
 Description: "Wartości pozycji słownika LOINC Part typu Component"
 * $loinc-part#LP100006-8 "Wirus brodawczaka ludzkiego 18 DNA"

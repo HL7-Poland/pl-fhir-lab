@@ -1,5 +1,5 @@
 ValueSet: LoincSystemVS
-Id: pl-term-loincSystem-VS
+Id: pl-lab-loincSystem-VS
 Title: "Wartości LOINC System"
 Description: "Wartości pozycji słownika LOINC Part typu System"
 // Poprawić w pliku źródłowym:

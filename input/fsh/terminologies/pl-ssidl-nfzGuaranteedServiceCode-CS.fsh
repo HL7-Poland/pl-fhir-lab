@@ -1,5 +1,5 @@
-ValueSet: NfzGuaranteedServiceCodeVS
-Id: pl-term-nfzGuaranteedServiceCode-VS
+CodeSystem: NfzGuaranteedServiceCodeCS
+Id: pl-ssidl-nfzGuaranteedServiceCode-CS
 Title: "Kody świadczeń gwarantowanych NFZ"
 Description: "Kody świadczeń gwarantowanych NFZ"
 // Podczas importu z excela:

@@ -1,5 +1,5 @@
 ValueSet: LoincClassVS
-Id: pl-term-loincClass-VS
+Id: pl-lab-loincClass-VS
 Title: "Wartości LOINC Class"
 Description: "Wartości pozycji słownika LOINC Part typu Class"
 // LOINC Part code with PartType = CLASS

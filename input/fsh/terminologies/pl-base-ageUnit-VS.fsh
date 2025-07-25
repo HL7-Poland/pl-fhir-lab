@@ -1,5 +1,5 @@
 ValueSet: AgeUnitVS
-Id: pl-term-ageUnit-VS
+Id: pl-base-ageUnit-VS
 Title: "Kody jednostek wieku"
 Description: "Kody jednostek wieku oparte na słowniku UCUM"
 * $ucum#a "rok(lat)"
