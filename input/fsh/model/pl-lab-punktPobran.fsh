@@ -3,6 +3,7 @@ Parent: Base
 Id: pl-lab-punktPobran
 Title: "Punkt pobrań"
 Description: "Punkt pobrań"
+Characteristics: #can-be-target
 * identyfikator 0..1 Identifier "Identyfikator punktu pobrań" "Identyfikator punktu pobrań"
 * rodzajPracowni 0..* Coding "Rodzaj punktu pobrań" "Rodzaj punktu pobrań"
 * rodzajPracowni from LaboratoryIntakePointTypeVS

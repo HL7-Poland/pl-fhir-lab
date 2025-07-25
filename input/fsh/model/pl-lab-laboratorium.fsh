@@ -3,6 +3,7 @@ Parent: Base
 Id: pl-lab-laboratorium
 Title: "Laboratorium"
 Description: "Laboratorium"
+Characteristics: #can-be-target
 * identyfikator 0..1 Identifier "Identyfikator laboratorium" "Identyfikator laboratorium"
 * rodzajPracowni 0..* Coding "Rodzaj pracowni" "Rodzaj pracowni laboratoryjnej"
 * rodzajPracowni from LaboratoryServiceProviderTypeVS

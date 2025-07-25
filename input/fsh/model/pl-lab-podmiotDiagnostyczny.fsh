@@ -3,6 +3,7 @@ Parent: Base
 Id: pl-lab-podmiotDiagnostyczny
 Title: "Podmiot diagnostyczny"
 Description: "Podmiot diagnostyczny"
+Characteristics: #can-be-target
 * identyfikator 0..1 Identifier "Identyfikator podmiotu" "Identyfikator podmiotu diagnostycznego"
 * nazwa 1..1 string "Nazwa podmiotu" "Nazwa podmioru diagnostycznego"
 * adres 0..1 Address "Adres podmiotu" "Adres podmiotu diagnostycznego"
