@@ -1,5 +1,5 @@
 ValueSet: SsidlLoincConceptVS
-Id: pl-ssidl-loincConcept-VS
+Id: ssidl-loincConcept-VS
 Title: "Kody LOINC usług w projekcie SSIDL"
 Description: "Kody LOINC usług laboratoryjnych wybranych do projektu SSIDL"
 // SSIDL LOINC Concept code and Polish FSN

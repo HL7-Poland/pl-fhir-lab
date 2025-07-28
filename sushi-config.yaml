@@ -6,8 +6,8 @@
 id: hl7.fhir.pl.laboratory
 canonical: http://hl7.org.pl/fhir/ig/pl-lab
 name: hl7.fhir.pl.lab.r5
-# title: Example Title
-# description: Example Implementation Guide for getting started with SUSHI
+title: Polska specyfikacja standardu HL7 FHIR dla diagnostyki laboratoryjnej (HL7 FHIR PL Laboratory)
+description: Polska specyfikacja standardu HL7 FHIR dla diagnostyki laboratoryjnej (HL7 FHIR PL Laboratory)
 status: draft # draft | active | retired | unknown
 version: 0.1.0
 fhirVersion: 5.0.0
@@ -39,9 +39,13 @@ dependencies:
 # with supported extensions (e.g., .md/.xml) will be treated as
 # sub-pages.
 #
-# pages:
-#   index.md:
-#     title: Example Home
+pages:
+  index.md:
+    title: Strona główna
+  usecases.md:
+    title: Przypadki użycia
+  model.md:
+    title: Model logiczny
 #   implementation.xml:
 #   examples.xml:
 #     title: Examples Overview
@@ -71,8 +75,11 @@ dependencies:
 # │ property below.                                                                                │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 menu:
-  Home: index.html
-  Artifacts: artifacts.html
+  Strona główna: index.html
+  Przypadki użycia: usecases.html
+  Model logiczny: model.html
+  Definicje: artifacts.html
+  
 
 # ╭───────────────────────────Less Common Implementation Guide Properties──────────────────────────╮
 # │  Uncomment the properties below to configure additional properties on the ImplementationGuide  │

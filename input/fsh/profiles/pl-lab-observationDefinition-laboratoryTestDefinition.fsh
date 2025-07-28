@@ -66,7 +66,7 @@ Description: "Definicja badania laboratoryjnego"
 * code.coding contains
     loincCode 1..1 MS and
     icd9plCode 0..* MS
-* code.coding[loincCode] from LoincLaboratoryServiceCodeVS
+* code.coding[loincCode] from SsidlLoincConceptVS
 * code.coding[loincCode].system 1..1 MS
 * code.coding[loincCode].version 0..1 MS
 * code.coding[loincCode].code 1..1 MS
@@ -90,7 +90,7 @@ Description: "Definicja badania laboratoryjnego"
 * method.coding.display 1..1 MS
 * method.coding.userSelected 0..0
 * method.text 0..1 MS
-* method from LaboratoryMethodTypeVS
+* method from SsidlMethodTypeVS
 * specimen 1..1 MS
 * specimen only Reference(PLLabSpecimenDefinition)
 * device 0..0
