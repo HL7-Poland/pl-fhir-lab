@@ -8,4 +8,4 @@ Characteristics: #can-be-target
 * temperaturaDo 0..1 decimal "Temperatura do" "Temperatura do"
 * maksymalnyCzas 0..1 integer "Maksymalny czas" "Maksymalny czas"
 * jednostkaCzasu 0..1 Coding "Jednostka czasu" "Jednostka czasu"
-* jednostkaCzasu from $ucum-codes-vs
+* jednostkaCzasu from SsidlUcumUnitsVS

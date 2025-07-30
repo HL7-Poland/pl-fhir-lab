@@ -1,9 +1,10 @@
-ValueSet: LaboratoryMethodTypeVS
-Id: pl-lab-methodType-VS
+ValueSet: SsidlMethodTypeVS
+Id: ssidl-methodType-VS
 Title: "Kody metod oznaczeń laboratoryjnych"
-Description: "Kody metod oznaczeń laboratoryjnych wyrażone za pomocą pozycji słownika LOINC Part typu Method"
+Description: "Kody metod oznaczeń laboratoryjnych wyrażone za pomocą pozycji słownika LOINC Part typu Method lub słownika własnego SSIDL"
 // - wszystkie nazwy powinny być małą literą
 // - usunąć pozycje, które nie są nazwą metody (?)
+* $ssidl-method#KOLOR "Metoda kolorymetryczna"
 * $loinc-part#LP100028-2 "dyfrakcja promieni rentgenowskich"
 * $loinc-part#LP100479-7 "zautomatyzowana cytometria obrazowa"
 * $loinc-part#LP100835-0 "miernik przezskórny"

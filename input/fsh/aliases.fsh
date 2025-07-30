@@ -32,10 +32,10 @@ Alias: $radiology-playbook = http://fhir.loinc.org/ValueSet/loinc-rsna-radiology
 Alias: $bcp-47 = urn:ietf:bcp:47
 Alias: $ucum = http://unitsofmeasure.org
 Alias: $snomed = https://www.snomed.org
+Alias: $ref-range-meaning = http://terminology.hl7.org/5.1.0/CodeSystem-referencerange-meaning.html
 
 
 // UV Terminology value sets
-Alias: $ucum-codes-vs = http://hl7.org/fhir/ValueSet/ucum-units
 Alias: $all-languages-vS = http://hl7.org/fhir/ValueSet/all-languages
 
 // PL Terminology
@@ -46,5 +46,7 @@ Alias: $p1-document-class = urn:oid:2.16.840.1.113883.3.4424.11.1.32
 Alias: $practitioner-role = urn:oid:2.16.840.1.113883.3.4424.11.3.18
 Alias: $practitioner-specialty = urn:oid:2.16.840.1.113883.3.4424.11.3.3
 Alias: $service-catalog-type = http://hl7.org.pl/fhir/ig/pl-lab/CodeSystem/pl-lab-serviceCatalogType-CS
-Alias: $nfz-guaranteed = http://hl7.org.pl/fhir/ig/ssidl/CodeSystem/ssidl-nfzGuaranteedServiceCode-CS
-Alias: $ssidl-method = http://hl7.org.pl/fhir/ig/ssidl/CodeSystem/ssidl-methodType-CS
+Alias: $nfz-guaranteed = http://loinc-ssidl.umed.pl/fhir/ig/ssidl/CodeSystem/ssidl-nfzGuaranteedServiceCode-CS
+Alias: $ssidl-method = http://loinc-ssidl.umed.pl/fhir/ig/ssidl/CodeSystem/ssidl-methodType-CS
+Alias: $ucum-codes-vs = http://loinc-ssidl.umed.pl/fhir/ig/ssidl/ValueSet/ssidl-ucumUnits-VS
+Alias: $patient-prep = http://loinc-ssidl.umed.pl/fhir/ig/ssidl/ValueSet/ssidl-patientPreparation-VS

@@ -115,7 +115,7 @@ Description: "Usługa katalogowa laboratorium"
 * component.code from LoincLaboratoryServiceCodeVS
 * component.permittedDataType 1..1 MS
 * component.permittedUnit 1..1 MS
-* component.permittedUnit from $ucum-codes-vs
+* component.permittedUnit from SsidlUcumUnitsVS
 * component.qualifiedValue.extension contains
     ObservationDefinitionQualifiedValueSourceInfoReference named sourceInfo 0..1 MS
 * component.qualifiedValue 1..1 MS
@@ -150,10 +150,10 @@ Description: "Usługa katalogowa laboratorium"
 * component.qualifiedValue.range 0..1 MS
 * component.qualifiedValue.range.low 0..1 MS
 * component.qualifiedValue.range.low.unit 1..1 MS
-* component.qualifiedValue.range.low.unit from $ucum-codes-vs
+* component.qualifiedValue.range.low.unit from SsidlUcumUnitsVS
 * component.qualifiedValue.range.high 0..1 MS
 * component.qualifiedValue.range.high.unit 1..1 MS
-* component.qualifiedValue.range.high.unit from $ucum-codes-vs
+* component.qualifiedValue.range.high.unit from SsidlUcumUnitsVS
 * component.qualifiedValue.validCodedValueSet 0..1 MS
 * component.qualifiedValue.validCodedValueSet
 * component.qualifiedValue.normalCodedValueSet 0..0
