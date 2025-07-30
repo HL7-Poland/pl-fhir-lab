@@ -1,9 +1,10 @@
 Profile: PLLabConditionDefinitionReasonForTest
 Parent: ConditionDefinition
 Id: pl-lab-conditionDefinition-reasonForTest
-Title: "SubstanceDefinition: Reason for test (PL)"
+Title: "ConditionDefinition: Reason for test (PL)"
 Description: "Powód wykonania badania dla definicji badania laboratoryjnego"
 * ^version = "0.1.0"
+* id 1..1
 * url 0..0
 * identifier 0..0
 * version 0..0

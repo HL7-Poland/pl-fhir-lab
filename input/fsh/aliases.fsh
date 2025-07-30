@@ -50,3 +50,4 @@ Alias: $nfz-guaranteed = http://loinc-ssidl.umed.pl/fhir/ig/ssidl/CodeSystem/ssi
 Alias: $ssidl-method = http://loinc-ssidl.umed.pl/fhir/ig/ssidl/CodeSystem/ssidl-methodType-CS
 Alias: $ucum-codes-vs = http://loinc-ssidl.umed.pl/fhir/ig/ssidl/ValueSet/ssidl-ucumUnits-VS
 Alias: $patient-prep = http://loinc-ssidl.umed.pl/fhir/ig/ssidl/ValueSet/ssidl-patientPreparation-VS
+Alias: $reason-type = http://loinc-ssidl.umed.pl/fhir/ig/ssidl/CodeSystem/ssidl-reasonForTestType-CS

@@ -13,7 +13,7 @@ Context: ObservationDefinition
     description 0..1 MS
 * extension[targetUnit].value[x] only Coding
 * extension[targetUnit].valueCoding 1..1
-* extension[targetUnit].valueCoding from $ucum-codes-vs
+* extension[targetUnit].valueCoding from SsidlUcumUnitsVS
 * extension[conversionFactor].value[x] only decimal
 * extension[conversionFactor].valueDecimal 1..1
 * extension[description].value[x] only string

@@ -2,7 +2,7 @@ Instance: SsidlAlpTest
 InstanceOf: PLLabObservationDefinitionLaboratoryTestDefinition
 Title: "LaboratoryTestDefinition: ALP"
 Usage: #example
-* id = "example001"
+* id = "example001-alp"
 * url = "http://loinc-ssidl.umed.pl/fhir/ig/ssidl/ObservationDefinition/ssidl-alp-test"
 * extension[nfzGuaranteedServiceCode][+].extension[code][+].valueCoding = $nfz-guaranteed#1.6.2.23 "fosfataza alkaliczna (ALP)"
 * extension[nfzGuaranteedServiceCode][=].extension[explicite][+].valueBoolean = true
@@ -19,9 +19,9 @@ Usage: #example
 * component.extension[title].valueString = "Fosfataza alkaliczna"
 * component.code.coding = $loinc#6768-6 "Fosfataza zasadowa: stężenie katalityczne: punkt w czasie: surowica lub osocze: ilościowy"
 * component.permittedDataType = #Quantity
-* component.permittedUnit = $ucum#u[IU]/L "u[IU]/L" // poprawić na jednostki z SSIDL VS
+* component.permittedUnit = $ucum#U/L "jednostka na Litr"
 * component.qualifiedValue.context.coding = $ref-range-meaning#normal "Wartości normalne"
 * component.qualifiedValue.range.low.value = 30
-* component.qualifiedValue.range.low.unit = $ucum#u[IU]/L "u[IU]/L" // poprawić na jednostki z SSIDL VS
+* component.qualifiedValue.range.low.unit = $ucum#U/L "jednostka na Litr"
 * component.qualifiedValue.range.high.value = 120
-* component.qualifiedValue.range.high.unit = $ucum#u[IU]/L "u[IU]/L" // poprawić na jednostki z SSIDL VS
+* component.qualifiedValue.range.high.unit = $ucum#U/L "jednostka na Litr"

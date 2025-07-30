@@ -1,8 +1,8 @@
-Instance: SsidlAlpSpecimen
+Instance: SsidlCreatMassSpecimen
 InstanceOf: PLLabSpecimenDefinition
-Title: "SpecimenDefinition: ALP"
+Title: "SpecimenDefinition: Creatinine (mass)"
 Usage: #example
-* id = "example001-alp"
+* id = "example002-creat-mass"
 * status = #active
 * patientPreparation.coding = $patient-prep#RANO "W godzinach porannych"
 * typeTested.handling.temperatureQualifier.text = "Transport w temperaturze pokojowej"
