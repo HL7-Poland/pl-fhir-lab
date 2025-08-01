@@ -18,6 +18,7 @@ Alias: $iso3166-1-2 = http://hl7.org/fhir/ValueSet/iso3166-1-2
 Alias: $iso3166-1-3 = http://hl7.org/fhir/ValueSet/iso3166-1-3
 Alias: $iso3166-1-N = http://hl7.org/fhir/ValueSet/iso3166-1-N
 Alias: $iso21090-ADXP-unitID = http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-unitID
+Alias: $adm-gender = http://hl7.org/fhir/ValueSet/administrative-gender
 
 // PL Teritorial
 Alias: $ids-terc = http://hl7.org.pl/fhir/NamingSystem/teryt-terc
@@ -51,3 +52,4 @@ Alias: $ssidl-method = http://loinc-ssidl.umed.pl/fhir/ig/ssidl/CodeSystem/ssidl
 Alias: $ucum-codes-vs = http://loinc-ssidl.umed.pl/fhir/ig/ssidl/ValueSet/ssidl-ucumUnits-VS
 Alias: $patient-prep = http://loinc-ssidl.umed.pl/fhir/ig/ssidl/ValueSet/ssidl-patientPreparation-VS
 Alias: $reason-type = http://loinc-ssidl.umed.pl/fhir/ig/ssidl/CodeSystem/ssidl-reasonForTestType-CS
+Alias: $def-use = http://loinc-ssidl.umed.pl/fhir/ig/ssidl/CodeSystem/ssidl-definitionUseContext-CS

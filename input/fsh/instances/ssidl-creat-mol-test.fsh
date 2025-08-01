@@ -17,6 +17,8 @@ Usage: #example
 * version = "1"
 * title = "Kreatynina:stężenie molowe:punkt w czasie:surowica lub osocze:ilościowy"
 * status = #active
+* useContext.code = #workflow
+* useContext.valueCodeableConcept.coding = $def-use#DB "Rozszerzona definicja badania"
 * performerType = $org-cell-type#7100 "Medyczne laboratorium diagnostyczne (laboratorium)"
 * category = $loinc-part#LP7786-9 "badania biochemiczne - testy bez obciążenia"
 * code.coding[loincCode] = $loinc#14682-9 "Kreatynina:stężenie molowe:punkt w czasie:surowica lub osocze:ilościowy"

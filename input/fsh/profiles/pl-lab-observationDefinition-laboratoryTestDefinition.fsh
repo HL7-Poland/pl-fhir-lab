@@ -22,7 +22,11 @@ Description: "Definicja badania laboratoryjnego wg projektu LOINC-SSIDL"
 * publisher 0..0
 * contact 0..0
 * description 0..0
-* useContext 0..0
+* useContext 1..1
+* useContext.code = #workflow
+* useContext.valueCodeableConcept.coding 1..1
+* useContext.valueCodeableConcept.coding from SsidlDefinitionUseContextVS
+* useContext.valueCodeableConcept.text 0..0
 * jurisdiction 0..0
 * purpose 0..0
 * copyright 0..0
@@ -86,7 +90,7 @@ Description: "Definicja badania laboratoryjnego wg projektu LOINC-SSIDL"
 * method.coding.userSelected 0..0
 * method.text 0..1 MS
 * method from SsidlMethodTypeVS
-* specimen 1..1 MS
+* specimen 0..1 MS
 * specimen only Reference(PLLabSpecimenDefinition)
 * device 0..0
 * preferredReportName 1..1 MS
@@ -109,7 +113,7 @@ Description: "Definicja badania laboratoryjnego wg projektu LOINC-SSIDL"
 * component.permittedUnit from SsidlUcumUnitsVS
 * component.qualifiedValue.extension contains
     ObservationDefinitionQualifiedValueSourceInfoReference named sourceInfo 0..1 MS
-* component.qualifiedValue 1..1 MS
+* component.qualifiedValue 1..* MS
 * component.qualifiedValue.context 1..1 MS
 * component.qualifiedValue.context.coding 1..1 MS
 * component.qualifiedValue.context.coding.system 1..1 MS
@@ -129,6 +133,7 @@ Description: "Definicja badania laboratoryjnego wg projektu LOINC-SSIDL"
 * component.qualifiedValue.appliesTo.coding.userSelected 0..0
 * component.qualifiedValue.appliesTo.text 0..0
 * component.qualifiedValue.gender 0..1 MS
+* component.qualifiedValue.gender from $adm-gender
 * component.qualifiedValue.age 0..1 MS
 * component.qualifiedValue.age.low 0..1 MS
 * component.qualifiedValue.age.high 0..1 MS 

@@ -3,7 +3,7 @@ InstanceOf: PLLabConditionDefinitionReasonForTest
 Title: "ConditionDefinition: N17"
 Usage: #example
 * id = "n17"
-* title = "Ostra niewydolnośc nerek"
+* title = "Ostra niewydolność nerek"
 * status = #active
 * code = $icd-10#N17 "Ostra niewydolność nerek"
 * hasBodySite = false
