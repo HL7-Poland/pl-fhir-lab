@@ -95,10 +95,9 @@ Description: "Definicja badania laboratoryjnego wg projektu LOINC-SSIDL"
 * device 0..0
 // * preferredReportName 1..1 MS
 * permittedUnit 0..1
-* qualifiedValue 0..1
+* qualifiedValue 0..* MS
 * qualifiedValue.extension contains
     ObservationDefinitionQualifiedValueSourceInfoReference named sourceInfo 0..1 MS
-* qualifiedValue 1..* MS
 * qualifiedValue.context 1..1 MS
 * qualifiedValue.context.coding 1..1 MS
 * qualifiedValue.context.coding.system 1..1 MS

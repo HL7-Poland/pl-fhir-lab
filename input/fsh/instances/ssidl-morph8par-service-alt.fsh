@@ -15,10 +15,10 @@ Usage: #example
 // USUNĄĆ? * performerType = $org-cell-type#7100 "Medyczne laboratorium diagnostyczne (laboratorium)"
 // USUNĄĆ? * category = $loinc-part#LP7786-9 "badania biochemiczne - testy bez obciążenia"
 * kind = #Task
-* code.coding[loincCode] = $loinc#58410-2 "[Brak pozycji w polskiej wersji]"
+* code.coding[loincCode] = $loinc#58410-2 "[Brak pozycji w polskiej wersji]"  // Dodać slicing w profilu dla AD
 * code.coding[icd9plCode] = $icd-9-pl#C53 "Morfologia krwi 8-parametrowa"
 * specimenRequirement = "http://loinc-ssidl.umed.pl/fhir/ig/ssidl/ActivityDefinition/ssidl-morph8par-specimen" // Trzeba dodać url w SpecimenDefinition
-* observationRequirement = "http://loinc-ssidl.umed.pl/fhir/ig/ssidl/ObservationDefinition/ssidl-6690-2-test"
+* observationRequirement[+] = "http://loinc-ssidl.umed.pl/fhir/ig/ssidl/ObservationDefinition/ssidl-6690-2-test"
 * observationRequirement = "http://loinc-ssidl.umed.pl/fhir/ig/ssidl/ObservationDefinition/ssidl-789-8-test"
 * observationRequirement = "http://loinc-ssidl.umed.pl/fhir/ig/ssidl/ObservationDefinition/ssidl-718-7-test"
 * observationRequirement = "http://loinc-ssidl.umed.pl/fhir/ig/ssidl/ObservationDefinition/ssidl-4544-3-test"
@@ -27,4 +27,4 @@ Usage: #example
 * observationRequirement = "http://loinc-ssidl.umed.pl/fhir/ig/ssidl/ObservationDefinition/ssidl-786-4-test"
 * observationRequirement = "http://loinc-ssidl.umed.pl/fhir/ig/ssidl/ObservationDefinition/ssidl-777-3-test"
 
-// Można jeszcze użyć transform + StructureDefinition, żeby narzucić inną strukturę dla celóww prezentacyjnych
+// Można jeszcze użyć transform + StructureDefinition, żeby narzucić inną strukturę dla celów prezentacyjnych

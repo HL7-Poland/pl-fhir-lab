@@ -1,6 +1,6 @@
 Profile: PLLabSpecimenDefinitionAlt
 Parent: SpecimenDefinition
-Id: pl-lab-specimenDefinition
+Id: pl-lab-specimenDefinition-alt
 Title: "SubstanceDefinition (PL)"
 Description: "Definicja czynników przedanalitycznych dla definicji badania laboratoryjnego"
 * ^version = "0.1.0"
