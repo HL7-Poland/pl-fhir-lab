@@ -1,11 +1,11 @@
-Instance: SsidMorph8ParSpecimen
-InstanceOf: PLLabSpecimenDefinitionAlt
-Title: "SpecimenDefinition: Morph8Par"
+Instance: SsidlSpecimenDefinition-777-3
+InstanceOf: SsidlSpecimenDefinition
+Title: "SSIDL SpecimenDefinition: Płytki krwi"
 Usage: #example
-* id = "example004-morph8Par"
-* url = "http://loinc-ssidl.umed.pl/fhir/ig/ssidl/ActivityDefinition/ssidl-morph8par-specimen" // dodać w profilu
+* url = "http://loinc-ssidl.umed.pl/fhir/ig/ssidl/SpecimenDefinition/ssidl-specimenDefinition-777-3"
 * status = #active
-* patientPreparation.coding = $patient-prep#RANO "W godzinach porannych"
+* typeTested.preference = #preferred
+* patientPreparation.text = "W godzinach porannych"
 * typeTested.handling.temperatureQualifier.text = "Transport w temperaturze pokojowej"
 * typeTested.handling.temperatureRange.low.value = 15
 * typeTested.handling.temperatureRange.low.unit = $ucum#Cel "st. Celsjusza"

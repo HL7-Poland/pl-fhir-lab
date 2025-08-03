@@ -1,10 +1,11 @@
-Instance: SsidlAlpSpecimen
-InstanceOf: PLLabSpecimenDefinition
-Title: "SpecimenDefinition: ALP"
+Instance: SsidlSpecimenDefinition-14682-9
+InstanceOf: SsidlSpecimenDefinition
+Title: "SSIDL SpecimenDefinition: Kreatynina"
 Usage: #example
-* id = "example001-alp"
+* url = "http://loinc-ssidl.umed.pl/fhir/ig/ssidl/SpecimenDefinition/ssidl-specimenDefinition-14682-9"
 * status = #active
-* patientPreparation.coding = $patient-prep#RANO "W godzinach porannych"
+* typeTested.preference = #preferred
+* patientPreparation.text = "W godzinach porannych"
 * typeTested.handling.temperatureQualifier.text = "Transport w temperaturze pokojowej"
 * typeTested.handling.temperatureRange.low.value = 15
 * typeTested.handling.temperatureRange.low.unit = $ucum#Cel "st. Celsjusza"

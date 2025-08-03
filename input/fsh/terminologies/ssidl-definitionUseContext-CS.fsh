@@ -1,6 +1,6 @@
 CodeSystem: SsidlDefinitionUseContextCS
 Id: ssidl-definitionUseContext-CS
-Title: "Kontekst użycia definicji badania"
-Description: "Kontekst użycia definicji badania"
-* #DB "Rozszerzona definicja badania"
-* #UK "Usługa katalogowa"
+Title: "Kontekst użycia definicji"
+Description: "Kontekst użycia definicji usługi/testu laboratoryjnego"
+* #BW "Baza wiedzy SSIDL"
+* #KU "katalog usług"

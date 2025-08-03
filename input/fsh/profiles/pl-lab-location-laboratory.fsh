@@ -1,6 +1,6 @@
 Profile: PLLabLocationLaboratory
 Parent: PLBaseLocation
-Id: pl-lab-location-diagnosticEntity
+Id: pl-lab-location-laboratory
 Title: "Location: Laboratory (PL)"
 Description: "Laboratotium"
 * identifier 1..1 MS 

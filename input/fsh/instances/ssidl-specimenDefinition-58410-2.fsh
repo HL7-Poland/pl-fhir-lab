@@ -1,10 +1,11 @@
-Instance: SsidlCreatMassSpecimen
-InstanceOf: PLLabSpecimenDefinition
-Title: "SpecimenDefinition: Creatinine (mass)"
+Instance: SsidlSpecimenDefinition-58410-2
+InstanceOf: SsidlSpecimenDefinition
+Title: "SSIDL SpecimenDefinition: Morfologia krwi"
 Usage: #example
-* id = "example002-creat-mass"
+* url = "http://loinc-ssidl.umed.pl/fhir/ig/ssidl/SpecimenDefinition/ssidl-specimenDefinition-58410-2"
 * status = #active
-* patientPreparation.coding = $patient-prep#RANO "W godzinach porannych"
+* typeTested.preference = #preferred
+* patientPreparation.text = "W godzinach porannych"
 * typeTested.handling.temperatureQualifier.text = "Transport w temperaturze pokojowej"
 * typeTested.handling.temperatureRange.low.value = 15
 * typeTested.handling.temperatureRange.low.unit = $ucum#Cel "st. Celsjusza"
