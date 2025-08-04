@@ -3,7 +3,7 @@ InstanceOf: SsidlObservationDefinitionLabTestDefinition
 Title: "SSIDL LabTestDefinition: Fosfataza zasadowa"
 Usage: #example
 * text.status = #generated
-* text.div = "<p></p>"
+* text.div = "<div></div>"
 * url = "http://loinc-ssidl.umed.pl/fhir/ig/ssidl/ObservationDefinition/ssidl-labTestDefinition-6768-6"
 * version = "1"
 * title = "Fosfataza zasadowa"

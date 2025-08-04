@@ -3,7 +3,7 @@ InstanceOf: SsidlActivityDefinitionLabServiceDefinition
 Title: "LabServiceDefinition: Kreatynina"
 Usage: #example
 * text.status = #generated
-* text.div = "<p></p>"
+* text.div = "<div></div>"
 * url = "http://loinc-ssidl.umed.pl/fhir/ig/ssidl/ActivityDefinition/ssidl-labServiceDefinition-14682-9"
 * extension[reason][+].valueReference = Reference(SsidlCondition-N17)
 * extension[reason][+].valueReference = Reference(SsidlCondition-N18)

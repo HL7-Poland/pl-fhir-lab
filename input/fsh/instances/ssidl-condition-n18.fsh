@@ -3,7 +3,7 @@ InstanceOf: PLLabConditionDefinitionReasonForTest
 Title: "ConditionDefinition: N18"
 Usage: #example
 * text.status = #generated
-* text.div = "<p></p>"
+* text.div = "<div></div>"
 * id = "n18"
 * title = "Przewlekła niewydolność nerek"
 * status = #active

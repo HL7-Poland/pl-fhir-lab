@@ -3,7 +3,7 @@ InstanceOf: SsidlSpecimenDefinition
 Title: "SSIDL SpecimenDefinition: Kreatynina"
 Usage: #example
 * text.status = #generated
-* text.div = "<p></p>"
+* text.div = "<div></div>"
 * url = "http://loinc-ssidl.umed.pl/fhir/ig/ssidl/SpecimenDefinition/ssidl-specimenDefinition-2160-0"
 * status = #active
 * typeCollected.coding = $loinc-part#LP7057-5 "krew"

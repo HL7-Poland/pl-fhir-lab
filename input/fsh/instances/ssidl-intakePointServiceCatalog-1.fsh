@@ -3,7 +3,7 @@ InstanceOf: PLLabHealthcareServiceLaboratoryServiceCatalog
 Title: "IntakePointServiceCatalog: Przykład"
 Usage: #example
 * text.status = #generated
-* text.div = "<p></p>"
+* text.div = "<div></div>"
 * serviceDefinition[+].url = "http://loinc-ssidl.umed.pl/fhir/ig/ssidl/ActivityDefinition/ssidl-labCatalogService-58410-2"
 * serviceDefinition[+].url = "http://loinc-ssidl.umed.pl/fhir/ig/ssidl/ActivityDefinition/ssidl-labCatalogService-6690-2"
 * serviceDefinition[+].url = "http://loinc-ssidl.umed.pl/fhir/ig/ssidl/ActivityDefinition/ssidl-labCatalogService-777-3"

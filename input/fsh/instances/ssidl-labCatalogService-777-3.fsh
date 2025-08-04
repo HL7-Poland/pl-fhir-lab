@@ -3,7 +3,7 @@ InstanceOf: SsidlActivityDefinitionLabCatalogService
 Title: "SSIDL LabCatalogService: Płytki krwi"
 Usage: #example
 * text.status = #generated
-* text.div = "<p></p>"
+* text.div = "<div></div>"
 * url = "http://loinc-ssidl.umed.pl/fhir/ig/ssidl/ActivityDefinition/ssidl-labCatalogService-777-3"
 * version = "1"
 * title = "Płytki krwi"

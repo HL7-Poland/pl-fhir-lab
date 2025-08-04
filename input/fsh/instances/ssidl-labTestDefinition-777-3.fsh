@@ -3,7 +3,7 @@ InstanceOf: SsidlObservationDefinitionLabTestDefinition
 Title: "SSIDL LabTestDefinition: Płytki krwi"
 Usage: #example
 * text.status = #generated
-* text.div = "<p></p>"
+* text.div = "<div></div>"
 * url = "http://loinc-ssidl.umed.pl/fhir/ig/ssidl/ObservationDefinition/ssidl-labTestDefinition-777-3"
 * version = "1"
 * title = "Płytki krwi"

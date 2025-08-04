@@ -3,7 +3,7 @@ InstanceOf: SsidlObservationDefinitionLabTestDefinition
 Title: "SSIDL LabTestDefinition: Hemoglobina"
 Usage: #example
 * text.status = #generated
-* text.div = "<p></p>"
+* text.div = "<div></div>"
 * url = "http://loinc-ssidl.umed.pl/fhir/ig/ssidl/ObservationDefinition/ssidl-labTestDefinition-718-7"
 * version = "1"
 * title = "Hemoglobina"
