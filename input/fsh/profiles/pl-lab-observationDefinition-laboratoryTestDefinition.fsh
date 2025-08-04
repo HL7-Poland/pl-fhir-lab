@@ -2,20 +2,15 @@ Profile: PLLabObservationDefinitionLaboratoryTestDefinition
 Parent: ObservationDefinition
 Id: pl-lab-observationDefinition-laboratoryTestDefinition
 Title: "ObservationDefinition: Laboratory test definition (PL)"
-Description: "Definicja badania laboratoryjnego"
+Description: "Definicja badania laboratoryjnego wg projektu LOINC-SSIDL"
 * ^version = "0.1.0"
 * extension contains
     ObservationDefinitionReasonReference named reason 0..* MS and
     ObservationDefinitionUnitConversion named unitConversion 0..* MS and
-    ObservationDefinitionNfzGuaranteedServiceCode named nfzGuaranteedServiceCode 0..* MS and
-    ObservationDefinitionNfzContractedServiceCode named nfzContractedServiceCode 0..* MS
-* identifier 1..1 MS 
-* identifier.use 0..0
-* identifier.type 0..0
-* identifier.system 1..1 MS
-* identifier.value 1..1 MS
-* identifier.period 0..0
-* identifier.assigner 0..0 
+    ObservationDefinitionNfzGuaranteedServiceCode named nfzGuaranteedServiceCode 0..* MS
+* id 1..1
+* url 1..1
+* identifier 0..0 MS 
 * version 1..1 MS
 * versionAlgorithm[x] 0..0
 * name 0..0
@@ -27,7 +22,11 @@ Description: "Definicja badania laboratoryjnego"
 * publisher 0..0
 * contact 0..0
 * description 0..0
-* useContext 0..0
+* useContext 1..1
+* useContext.code = #workflow
+* useContext.valueCodeableConcept.coding 1..1
+* useContext.valueCodeableConcept.coding from SsidlDefinitionUseContextVS
+* useContext.valueCodeableConcept.text 0..0
 * jurisdiction 0..0
 * purpose 0..0
 * copyright 0..0
@@ -66,7 +65,7 @@ Description: "Definicja badania laboratoryjnego"
 * code.coding contains
     loincCode 1..1 MS and
     icd9plCode 0..* MS
-* code.coding[loincCode] from LoincLaboratoryServiceCodeVS
+* code.coding[loincCode] from SsidlLoincConceptVS
 * code.coding[loincCode].system 1..1 MS
 * code.coding[loincCode].version 0..1 MS
 * code.coding[loincCode].code 1..1 MS
@@ -90,8 +89,8 @@ Description: "Definicja badania laboratoryjnego"
 * method.coding.display 1..1 MS
 * method.coding.userSelected 0..0
 * method.text 0..1 MS
-* method from LaboratoryMethodTypeVS
-* specimen 1..1 MS
+* method from SsidlMethodTypeVS
+* specimen 0..1 MS
 * specimen only Reference(PLLabSpecimenDefinition)
 * device 0..0
 * preferredReportName 1..1 MS
@@ -108,13 +107,13 @@ Description: "Definicja badania laboratoryjnego"
 * component.code.coding.display 1..1 MS
 * component.code.coding.userSelected 0..0
 * component.code.text 0..0
-* component.code from LoincLaboratoryServiceCodeVS
-* component.permittedDataType 1..1 MS
-* component.permittedUnit 1..1 MS
-* component.permittedUnit from $ucum-codes-vs
+* component.code from SsidlLoincConceptVS
+* component.permittedDataType 0..1 MS
+* component.permittedUnit 0..1 MS
+* component.permittedUnit from SsidlUcumUnitsVS
 * component.qualifiedValue.extension contains
     ObservationDefinitionQualifiedValueSourceInfoReference named sourceInfo 0..1 MS
-* component.qualifiedValue 1..1 MS
+* component.qualifiedValue 1..* MS
 * component.qualifiedValue.context 1..1 MS
 * component.qualifiedValue.context.coding 1..1 MS
 * component.qualifiedValue.context.coding.system 1..1 MS
@@ -123,6 +122,7 @@ Description: "Definicja badania laboratoryjnego"
 * component.qualifiedValue.context.coding.display 1..1 MS
 * component.qualifiedValue.context.coding.userSelected 0..0
 * component.qualifiedValue.context.text 0..0
+* component.qualifiedValue.context from SsidlRefRangeMeaningVS
 * component.qualifiedValue.appliesTo 0..1 MS
 * component.qualifiedValue.appliesTo = $snomed#77386006 "Pregnancy"
 * component.qualifiedValue.appliesTo.coding 1..1 MS
@@ -133,6 +133,7 @@ Description: "Definicja badania laboratoryjnego"
 * component.qualifiedValue.appliesTo.coding.userSelected 0..0
 * component.qualifiedValue.appliesTo.text 0..0
 * component.qualifiedValue.gender 0..1 MS
+* component.qualifiedValue.gender from $adm-gender
 * component.qualifiedValue.age 0..1 MS
 * component.qualifiedValue.age.low 0..1 MS
 * component.qualifiedValue.age.high 0..1 MS 
@@ -146,10 +147,10 @@ Description: "Definicja badania laboratoryjnego"
 * component.qualifiedValue.range 0..1 MS
 * component.qualifiedValue.range.low 0..1 MS
 * component.qualifiedValue.range.low.unit 1..1 MS
-* component.qualifiedValue.range.low.unit from $ucum-codes-vs
+* component.qualifiedValue.range.low.unit from SsidlUcumUnitsVS
 * component.qualifiedValue.range.high 0..1 MS
 * component.qualifiedValue.range.high.unit 1..1 MS
-* component.qualifiedValue.range.high.unit from $ucum-codes-vs
+* component.qualifiedValue.range.high.unit from SsidlUcumUnitsVS
 * component.qualifiedValue.validCodedValueSet 0..1 MS
 * component.qualifiedValue.validCodedValueSet
 * component.qualifiedValue.normalCodedValueSet 0..0

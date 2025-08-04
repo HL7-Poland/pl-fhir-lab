@@ -1,5 +1,5 @@
-ValueSet: LoincMethodVS
-Id: pl-lab-loincMethod-VS
+ValueSet: LaboratoryMethodTypeVS
+Id: pl-lab-methodType-VS
 Title: "Wartości LOINC Method"
 Description: "Wartości pozycji słownika LOINC Part typu Method"
 // LOINC Part codes with PartTypeName = METHOD

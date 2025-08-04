@@ -5,8 +5,8 @@ Title: "Punkt pobrań"
 Description: "Punkt pobrań"
 Characteristics: #can-be-target
 * identyfikator 0..1 Identifier "Identyfikator punktu pobrań" "Identyfikator punktu pobrań"
-* rodzajPracowni 0..* Coding "Rodzaj punktu pobrań" "Rodzaj punktu pobrań"
-* rodzajPracowni from LaboratoryIntakePointTypeVS
+* rodzajPunktuPobran 0..* Coding "Rodzaj punktu pobrań" "Rodzaj punktu pobrań"
+* rodzajPunktuPobran from LaboratoryIntakePointTypeVS
 * nazwa 1..1 string "Nazwa punktu pobrań" "Nazwa punktu pobrań"
 * adres 0..1 Address "Adres punktu pobrań" "Adres punktu pobrań"
 * telefon 0..* string "Telefon punktu pobrań" "Telefon punktu pobrań"
