@@ -3,7 +3,7 @@ InstanceOf: SsidlObservationDefinitionLabCatalogTest
 Title: "SSIDL LabCatalogTest: Leukocyty"
 Usage: #example
 * text.status = #generated
-* text.div = ""
+* text.div = "<p></p>"
 * url = "http://loinc-ssidl.umed.pl/fhir/ig/ssidl/ObservationDefinition/ssidl-labCatalogTest-6690-2"
 * version = "1"
 * title = "Leukocyty"

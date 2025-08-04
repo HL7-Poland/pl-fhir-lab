@@ -3,7 +3,7 @@ InstanceOf: SsidlObservationDefinitionLabTestDefinition
 Title: "SSIDL LabTestDefinition: Kreatynina"
 Usage: #example
 * text.status = #generated
-* text.div = ""
+* text.div = "<p></p>"
 * url = "http://loinc-ssidl.umed.pl/fhir/ig/ssidl/ObservationDefinition/ssidl-labTestDefinition-14682-9"
 * version = "1"
 * title = "Kreatynina"

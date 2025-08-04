@@ -3,7 +3,7 @@ InstanceOf: SsidlSpecimenDefinition
 Title: "SSIDL SpecimenDefinition: Płytki krwi"
 Usage: #example
 * text.status = #generated
-* text.div = ""
+* text.div = "<p></p>"
 * url = "http://loinc-ssidl.umed.pl/fhir/ig/ssidl/SpecimenDefinition/ssidl-specimenDefinition-6690-2"
 * status = #active
 * typeCollected.coding = $loinc-part#LP7057-5 "krew"

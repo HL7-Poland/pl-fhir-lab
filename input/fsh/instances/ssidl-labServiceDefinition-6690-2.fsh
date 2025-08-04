@@ -3,7 +3,7 @@ InstanceOf: SsidlActivityDefinitionLabServiceDefinition
 Title: "SSIDL LabServiceDefinition: Leukocyty"
 Usage: #example
 * text.status = #generated
-* text.div = ""
+* text.div = "<p></p>"
 * url = "http://loinc-ssidl.umed.pl/fhir/ig/ssidl/ActivityDefinition/ssidl-labServiceDefinition-6690-2"
 * version = "1"
 * title = "Leukocyty"
