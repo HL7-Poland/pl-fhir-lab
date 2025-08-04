@@ -1,10 +1,10 @@
-Instance: SsidlSpecimenDefinition-58410-2
+Instance: SsidlSpecimenDefinition-6690-2
 InstanceOf: SsidlSpecimenDefinition
-Title: "SSIDL SpecimenDefinition: Morfologia krwi"
+Title: "SSIDL SpecimenDefinition: Płytki krwi"
 Usage: #example
 * text.status = #generated
 * text.div = ""
-* url = "http://loinc-ssidl.umed.pl/fhir/ig/ssidl/SpecimenDefinition/ssidl-specimenDefinition-58410-2"
+* url = "http://loinc-ssidl.umed.pl/fhir/ig/ssidl/SpecimenDefinition/ssidl-specimenDefinition-6690-2"
 * status = #active
 * typeCollected.coding = $loinc-part#LP7057-5 "krew"
 * patientPreparation.text = "W godzinach porannych"

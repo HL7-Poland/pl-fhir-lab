@@ -2,11 +2,11 @@ Instance: SsidlLabServiceDefinition-2160-0
 InstanceOf: SsidlActivityDefinitionLabServiceDefinition
 Title: "LabServiceDefinition: Kreatynina"
 Usage: #example
+* text.status = #generated
+* text.div = ""
 * url = "http://loinc-ssidl.umed.pl/fhir/ig/ssidl/ActivityDefinition/ssidl-labServiceDefinition-2160-0"
-* extension[reason][+].extension[condition][+].valueReference = Reference(SsidlConditionN17)
-* extension[reason][=].extension[type][+].valueCoding = $reason-type#ROZP "Rozpoznanie"
-* extension[reason][+].extension[condition][+].valueReference = Reference(SsidlConditionN18)
-* extension[reason][=].extension[type][+].valueCoding = $reason-type#ROZP "Rozpoznanie"
+* extension[reason][+].valueReference = Reference(SsidlCondition-N17)
+* extension[reason][+].valueReference = Reference(SsidlCondition-N18)
 * extension[unitConversion][+].extension[targetUnit][+].valueCoding = $ucum#umol/L "mikromol na Litr"
 * extension[unitConversion][=].extension[conversionFactor][+].valueDecimal = 88.4
 * extension[nfzGuaranteedServiceCode][+].extension[code][+].valueCoding = $nfz-guaranteed#1.6.2.9 "kreatynina"
@@ -16,7 +16,7 @@ Usage: #example
 * version = "1"
 * title = "Kreatynina"
 * status = #active
-* useContext.code = #workflow
+* useContext.code = $usage-context-type#workflow "Workflow Setting"
 * useContext.valueCodeableConcept.coding = $def-use#BW "Baza wiedzy SSIDL"
 * kind = #Task
 * code.coding[loincCode] = $loinc#2160-0 "Kreatynina:stężenie masowe:punkt w czasie:surowica lub osocze:ilościowy"

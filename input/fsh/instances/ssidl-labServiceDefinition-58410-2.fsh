@@ -2,13 +2,15 @@ Instance: SsidlLabServiceDefinition-58410-2
 InstanceOf: SsidlActivityDefinitionLabServiceDefinition
 Title: "LabServiceDefinition: Morfologia krwi"
 Usage: #example
+* text.status = #generated
+* text.div = ""
 * url = "http://loinc-ssidl.umed.pl/fhir/ig/ssidl/ActivityDefinition/ssidl-labServiceDefinition-58410-2"
 * extension[nfzGuaranteedServiceCode][+].extension[code][+].valueCoding = $nfz-guaranteed#5.1.1.1 "morfologia krwi 8-parametrowa"
 * extension[nfzGuaranteedServiceCode][=].extension[explicite][+].valueBoolean = true
 * version = "1"
 * title = "Morfologia krwi 8-parametrowa"
 * status = #active
-* useContext.code = #workflow
+* useContext.code = $usage-context-type#workflow "Workflow Setting"
 * useContext.valueCodeableConcept.coding = $def-use#BW "Baza wiedzy SSIDL"
 * kind = #Task
 * code.coding[loincCode] = $loinc#58410-2 "[Brak pozycji w polskiej wersji]"

@@ -2,11 +2,13 @@ Instance: SsidlLabCatalogTest-6690-2
 InstanceOf: SsidlObservationDefinitionLabCatalogTest
 Title: "SSIDL LabCatalogTest: Leukocyty"
 Usage: #example
+* text.status = #generated
+* text.div = ""
 * url = "http://loinc-ssidl.umed.pl/fhir/ig/ssidl/ObservationDefinition/ssidl-labCatalogTest-6690-2"
 * version = "1"
 * title = "Leukocyty"
 * status = #active
-* useContext.code = #workflow
+* useContext.code = $usage-context-type#workflow "Workflow Setting"
 * useContext.valueCodeableConcept.coding = $def-use#KU "Katalog usług"
 * code.coding = $loinc#6690-2 "Leukocyty: stężenie liczbowe: punkt w czasie: krew: ilościowy: automatyczne liczenie"
 * method.coding = $loinc-part#LP6141-8 "Automatyczne zliczanie"
