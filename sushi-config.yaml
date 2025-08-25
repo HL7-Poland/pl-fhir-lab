@@ -9,7 +9,7 @@ name: hl7.fhir.pl.lab.r5
 title: Polska specyfikacja standardu HL7 FHIR dla domeny badań laboratoryjnych (HL7 FHIR PLLaboratory)
 description: Polska specyfikacja standardu HL7 FHIR dla domeny badań laboratoryjnych 
 status: draft # draft | active | retired | unknown
-version: 0.1.0
+version: 0.1.1
 fhirVersion: 5.0.0
 copyrightYear: 2024+
 releaseLabel: ci-build
@@ -26,7 +26,7 @@ publisher:
 #
 dependencies:
   hl7.fhir.eu.extensions: 0.1.0
-  hl7.fhir.pl.base.r5: 0.1.0
+#  hl7.fhir.pl.base.r5: 0.1.0
 #
 #
 # The pages property corresponds to IG.definition.page. SUSHI can

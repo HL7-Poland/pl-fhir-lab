@@ -4,7 +4,7 @@ Id: pl-lab-observation-results
 Title: "Observation: Laboratory Results (PL)"
 Description: "Wynik badania laboratoryjnego"
 * ^version = "0.1.0"
-* code from PLServiceEventType
+// * code from PLServiceEventType
 * subject 1..1 MS
 * subject only Reference(PLBasePatient)
 * encounter only Reference(PLBaseEncounter)
