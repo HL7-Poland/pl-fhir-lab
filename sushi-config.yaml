@@ -75,9 +75,6 @@ pages:
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 menu:
   Strona główna: index.html  
-  Spis treści: toc.html  
-  Wprowadzenie: background.html 
-  Model: model.html
   Definicje: artifacts.html  
 
 # ╭───────────────────────────Less Common Implementation Guide Properties──────────────────────────╮
