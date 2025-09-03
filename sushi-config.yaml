@@ -6,7 +6,7 @@
 id: hl7.fhir.pl.laboratory
 canonical: http://hl7.org.pl/fhir/ig/pl-lab
 name: hl7.fhir.pl.lab.r5
-title: Polska specyfikacja HL7 FHIR dla diagnostyki laboratoryjnej (HL7 FHIR PL Laboratory)
+title: Specyfikacja HL7 FHIR dla diagnostyki laboratoryjnej (HL7 FHIR PL Laboratory)
 description: Polska specyfikacja standardu HL7 FHIR dla domeny badań laboratoryjnych
 status: draft # draft | active | retired | unknown
 version: 0.1.2

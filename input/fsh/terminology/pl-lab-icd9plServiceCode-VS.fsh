@@ -1,6 +1,6 @@
 ValueSet: Icd9PLLaboratoryServiceCodeVS
 Id: pl-lab-icd9plServiceCode-VS
-Title: "Kody usług laboratoryjnych ICD-9 PL"
+Title: "Kody usług laboratoryjnych ICD-9-PL (PL)"
 Description: "Kody usług laboratoryjnych wyrażone za pomocą słownika ICD9-PL"
 * $icd-9-pl#A01 "Badanie ogólne moczu (profil)"
 * $icd-9-pl#A03 "Badanie płynu mózgowo-rdzeniowego"
