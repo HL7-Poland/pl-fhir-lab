@@ -1,16 +1,11 @@
-Profile: PLLabServiceRequest
-Parent: ServiceRequest
-Id: pl-lab-serviceRequest
-Title: "ServiceRequest: Laboratory Request (PL)"
+Profile: PLLabServiceOrder
+Parent: PLBaseServiceOrder
+Id: pl-lab-serviceRequest-order
+Title: "ServiceRequest: Laboratory Order (PL)"
 Description: "Zlecenie badania laboratoryjnego"
 * ^version = "0.1.0"
 * code 1..1
-// * code from PLServiceEventType
-* subject only Reference(PLBasePatient)
-* encounter only Reference(PLBaseEncounter)
-* authoredOn 1..1 MS
-* requester only Reference(PLBasePractitionerRole)
-* insurance only Reference(PLBaseCoverage)
+// * slicing dla coding?
 
 // TODO:
 //* location 1..1

@@ -162,3 +162,9 @@ Parent: Organization
 Id: pl-base-organization
 Title: "Organization (PL)"
 Description: ""
+
+Profile: PLBaseServiceOrder
+Parent: ServiceRequest
+Id: pl-base-serviceRequest-order
+Title: "ServiceRequest: Zlecenie usługi"
+Description: ""
