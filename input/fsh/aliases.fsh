@@ -37,12 +37,10 @@ Alias: $snomed = https://www.snomed.org
 
 // UV Terminology value sets
 Alias: $ucum-codes-vs = http://hl7.org/fhir/ValueSet/ucum-units
-Alias: $all-languages-vS = http://hl7.org/fhir/ValueSet/all-languages
+Alias: $all-languages-VS = http://hl7.org/fhir/ValueSet/all-languages
 
 // PL Terminology
-Alias: $icd-9-pl = urn:oid:2.16.840.1.113883.3.4424.11.2.6
 Alias: $org-cell-type = urn:oid:2.16.840.1.113883.3.4424.11.2.4
-Alias: $mri-fieldStrength = http://hl7.org.pl/fhir/CodeSystem/pl-imaging-mriScannerFieldStrength-cs
 Alias: $p1-document-class = urn:oid:2.16.840.1.113883.3.4424.11.1.32
 Alias: $practitioner-role = urn:oid:2.16.840.1.113883.3.4424.11.3.18
 Alias: $practitioner-specialty = urn:oid:2.16.840.1.113883.3.4424.11.3.3
